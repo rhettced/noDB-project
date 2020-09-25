@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Axios from 'axios';
 import Display from './Display';
 
 export default class DisplayTeam extends Component{
@@ -27,7 +26,6 @@ export default class DisplayTeam extends Component{
                     editNameFn={this.props.editNameFn}/> 
             });
 
-        let mappedTeam = this.props.team
 
         return(
             <section className='display-team'>

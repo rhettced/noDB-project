@@ -21,7 +21,7 @@
 }
 
 img {
-  height: 100px;
+    width: 100px;
 }
 
 .card-info{
@@ -55,10 +55,11 @@ img {
 .team-display{
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 900px;
 }
 .team-display ul{
   padding: 10px;
+  width: 140px;
 }
 
 .team-display img{
