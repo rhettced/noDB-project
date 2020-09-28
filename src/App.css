@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   background-color: black;
+  height: 3000px;
 }
 
 .site-header{
@@ -41,6 +42,7 @@ img {
   background-color: silver;
   margin: 60px;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .card-info li{
@@ -50,16 +52,28 @@ img {
 .display-team{
   color: silver;
   border: 2px solid silver;
+  
 }
 
 .team-display{
   display: flex;
   justify-content: space-between;
   width: 900px;
+  animation-name: fadein;
+  animation-duration: .7s;
+  animation-timing-function: linear;
 }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
 .team-display ul{
   padding: 10px;
   width: 140px;
+
 }
 
 .team-display img{
@@ -76,4 +90,15 @@ img {
   height: 20px;
   width: 120px;
   margin: 25px 0px;
+}
+
+.buttons button{
+  margin: 0px 5px;
+  background-color: black;
+  color: silver;
+}
+
+.butttons{
+  display: flex;
+  justify-content: space-evenly;
 }

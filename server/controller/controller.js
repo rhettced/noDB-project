@@ -37,7 +37,7 @@ const tryOutData = [
         id: 5,
         name: 'Devin Booker',
         age: 24,
-        college: 'Duke',
+        college: 'Kentucky',
         image: 'https://image-cdn.essentiallysports.com/wp-content/uploads/20200811073737/devin-booker-smile-wallpaper-66383-68648-hd-wallpapers.jpg',
         madeTeam: null
     },

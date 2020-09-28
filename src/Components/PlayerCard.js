@@ -62,7 +62,7 @@ class PlayerCard extends Component {
                          previousButtonFn={this.previousButton}
                          addToTeamFn={() => this.props.addToTeamFn(this.state.index)}
                          cutFromTeamFn={this.indexMinus}/>
-            </section>
+                         </section>
         );
 
     }

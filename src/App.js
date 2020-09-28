@@ -12,7 +12,6 @@ class App extends Component {
     this.state = {
       tryOutData: [],
       team: []
-      // index: 3
     }
   }
   componentDidMount() {
@@ -31,7 +30,7 @@ class App extends Component {
   updateTeam = () => {
     Axios.get('/api/team')
       .then(res => {
-        console.log(`Team` + res.data);
+        //console.log(res.data);
         this.setState({ team: res.data });
       })
       .catch(err => console.log(err));
